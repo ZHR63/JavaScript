@@ -18,7 +18,7 @@
 
 先告诉大家一个基本概念：访问局部变量的速度要比访问全局变量的速度更快些
 
-**反例** 
+##### 反例 
 
 ```
 function fun() {
@@ -27,7 +27,7 @@ function fun() {
 ```
 
 
-**好例子**
+##### 好例子
 ```
 function fun() {
     var location = window.location;
@@ -47,10 +47,10 @@ function fun() {
 
 #### 4. 使用直接量
 
-**反例**
+##### 反例
 
     var arr = new Array();
 
-**好例子**
+##### 好例子
 
     var varr = [];
