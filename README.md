@@ -35,3 +35,22 @@ function fun() {
 }
 ```
 
+####  2. 定时器
+
+针对的是不断运行的代码，不应该使用setTimeout，而应该是用setInterval，因为setTimeout每一次都会初始化一个定时器，而setInterval只会在开始的时候初始化一个定时器
+
+
+#### 3. 浮点数转换成整型
+
+很多人喜欢使用parseInt()，其实parseInt()是用于将字符串转换成数字，而不是浮点数和整型之间的转换，我们应该使用Math.floor()或者Math.round()
+
+
+#### 4. 使用直接量
+
+**反例**
+
+    var arr = new Array();
+
+**好例子**
+
+    var varr = [];
