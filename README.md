@@ -6,10 +6,35 @@
 
 ## 目录
 
+* [计算数组的极值](#计算数组的极值)
+* [js中call、apply、bind](#js中call、apply、bind)
 * [前端性能优化](*前端性能优化)
 * [前端内存泄漏如何避免](#前端内存泄漏如何避免)
 * [从内存来看 null 和 undefined 本质的区别是什么](#从内存来看null和undefined本质的区别是什么)
 
+
+
+### 计算数组的极值
+
+```
+var arr = [1, -1, 30, 7, -99, 0];
+
+function smallArr(array) {
+    return Math.min.apply(Math, array);
+}
+
+function largeArr(array) {
+    return Math.max.apply(Math, array);
+}
+
+smallArr(arr); // -99
+largeArr(arr); // 30
+```
+
+
+### js中call、apply、bind
+
+> 先告诉大家一个基本概念：**改变函数执行时的上下文**，在具体一点就是**改变函数运行时this指向**
 
 
 ### 前端性能优化
@@ -56,10 +81,6 @@ function fun() {
 ##### 好例子
 
     var varr = [];
-
-
-
-
 
 ### 前端内存泄漏如何避免
 
