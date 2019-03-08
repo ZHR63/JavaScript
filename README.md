@@ -7,6 +7,7 @@
 ## 目录
 
 * [计算数组的极值](#计算数组的极值)
+* [数组排序](#数组排序)
 * [js中call、apply、bind](#js中call、apply、bind)
 * [前端性能优化](*前端性能优化)
 * [前端内存泄漏如何避免](#前端内存泄漏如何避免)
@@ -32,9 +33,60 @@ largeArr(arr); // 30
 ```
 
 
+### 数组排序
+> sort 改变原数组结构
+
+```
+var arr = [1, 2, -1, 0, 89, -16];
+arr.sort(function(a,b) {
+    return a - b;
+});
+// 从大到小 b - a
+console.log(arr);
+```
+
+
+
 ### js中call、apply、bind
 
 > 先告诉大家一个基本概念：**改变函数执行时的上下文**，在具体一点就是**改变函数运行时this指向**
+
+
+call和apply改变了什么？先上一段代码
+```
+function fn1() {
+    console.log(1);
+};
+function fn2() {
+    console.log(2);
+};
+fn1.call(fn2);
+```
+
+一定要搞清楚谁是被调用者，fn1 永远是要执行的任务，改变的只是this的指向，现在this指向fn2,现在我要验证this是否指向fn2
+
+```
+var obj1 = {
+    num : 20,
+    fn : function(n){
+        console.log(this.num+n);
+    }
+};
+var obj2 = {
+    num : 15,
+    fn : function(n){
+        console.log(this.num-n);
+    }
+};
+obj1.fn.call(obj2,10);//25
+```
+obj1中this.num的值为obj2中num的值
+
+
+
+
+
+
 
 
 ### 前端性能优化
