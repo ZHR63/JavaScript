@@ -33,7 +33,9 @@
 
 2.配置环境路径
 
-	因为cnpm会被安装到D:\Program Files\nodejs\node_global下，而系统变量path并未包含该路径。在系统变量path下添加该路径即可正常使用cnpm。
+	因为cnpm会被安装到D:\Program Files\nodejs\node_global下，
+    
+    而系统变量path并未包含该路径。在系统变量path下添加该路径即可正常使用cnpm。
 
 3.cnpm -v 验证
 
