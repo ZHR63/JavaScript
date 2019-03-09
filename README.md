@@ -6,7 +6,7 @@
 
 ## 目录
 
-* [npm使用](*npm使用)
+* [npm使用](https://github.com/ZHR63/JavaScript/blob/master/data/data-npm.md)
 * [计算数组的极值](#计算数组的极值)
 * [数组排序](#数组排序)
 * [js中call、apply、bind](#js中call-apply-bind)
