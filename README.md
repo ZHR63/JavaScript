@@ -8,7 +8,7 @@
 
 * [计算数组的极值](#计算数组的极值)
 * [数组排序](#数组排序)
-* [js中call、apply、bind](#js中call,apply,bind)
+* [js中call、apply、bind](#s中callapplybind)
 * [前端性能优化](前端性能优化)
 * [前端内存泄漏如何避免](#前端内存泄漏如何避免)
 * [从内存来看 null 和 undefined 本质的区别是什么](#从内存来看null和undefined本质的区别是什么)
