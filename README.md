@@ -1,6 +1,6 @@
 # JavaScript
 
-自己在项目中记录积累的
+自己在项目中积累的一些经验
 
 -------------
 
@@ -8,8 +8,8 @@
 
 * [计算数组的极值](#计算数组的极值)
 * [数组排序](#数组排序)
-* [js中call、apply、bind](#js中call、apply、bind)
-* [前端性能优化](*前端性能优化)
+* [js中call、apply、bind](#js中call,apply,bind)
+* [前端性能优化](前端性能优化)
 * [前端内存泄漏如何避免](#前端内存泄漏如何避免)
 * [从内存来看 null 和 undefined 本质的区别是什么](#从内存来看null和undefined本质的区别是什么)
 
@@ -47,7 +47,7 @@ console.log(arr);
 
 
 
-### js中call、apply、bind
+### js中call,apply,bind
 
 > 先告诉大家一个基本概念：**改变函数执行时的上下文**，在具体一点就是**改变函数运行时this指向**
 
