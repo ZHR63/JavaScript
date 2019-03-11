@@ -161,4 +161,6 @@ function fun() {
 
 **2.关闭8081对应的进程号**
 
-    taskkill /pid 8081 /F
+![number](img/js.png)
+
+    taskkill /pid 10940 /F
