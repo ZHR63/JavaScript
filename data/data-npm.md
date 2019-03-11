@@ -12,7 +12,8 @@
 ### npm查看全局安装
 
     npm list --depth --global
-
+<br>
+<br>
 
 ### 配置原有的环境变量
 
@@ -36,7 +37,8 @@
 
 	npm install express -g
 
-
+<br>
+<br>
 
 ### 安装淘宝镜像cnpm
 
