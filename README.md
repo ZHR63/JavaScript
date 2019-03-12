@@ -5,9 +5,10 @@
 -------------
 
 ## 目录
-
-* [npm总结](https://github.com/ZHR63/JavaScript/blob/master/data/data-npm.md)
+* [http](#http)
+* [npm总结](https://github.com/ZHR63/JavaScript/blob/master/data/npm/npm.md)
 * [node使用总结](https://github.com/ZHR63/JavaScript/blob/master/data/node/node.md)
+* [WebSocket](https://github.com/ZHR63/JavaScript/blob/master/data/WebSocket/websocket.md)
 * [计算数组的极值](#计算数组的极值)
 * [数组排序](#数组排序)
 * [js中call、apply、bind](#js中call-apply-bind)
@@ -15,6 +16,21 @@
 * [前端内存泄漏如何避免](#前端内存泄漏如何避免)
 * [从内存来看 null 和 undefined 本质的区别是什么](#从内存来看null和undefined本质的区别是什么)
 * [window中查找端口并关闭](#window中查找端口并关闭)
+
+
+### http
+
+**返回码**
+
+每次请求,都会有状态码返回,常见的状态码有:
+
+200,请求成功
+
+206,请求内容局部成功
+
+400,客户端请求语法错误,一般是连接地址不对
+
+500,服务器出现异常
 
 
 

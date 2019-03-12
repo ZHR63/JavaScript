@@ -5,7 +5,7 @@
 ## 目录
 
 * [npm查看全局安装](#npm查看全局安装)
-* [配置原有的环境变量](#配置原有的环境变量)
+* [配置npm默认的环境变量](#配置npm默认的环境变量)
 * [安装淘宝镜像cnpm](#安装淘宝镜像cnpm)
 
 
@@ -15,9 +15,9 @@
 <br>
 <br>
 
-### 配置原有的环境变量
+### 配置npm默认的环境变量
 
-1.先配置npm的全局模块的存放路径以及cache的路径
+1.配置npm的全局模块的存放路径以及cache的路径
 
     npm config set prefix "D:\Program Files\nodejs\node_global"
 
