@@ -8,6 +8,7 @@
 * [http](#http)
 * [npm总结](https://github.com/ZHR63/JavaScript/blob/master/data/npm/npm.md)
 * [node使用总结](https://github.com/ZHR63/JavaScript/blob/master/data/node/node.md)
+* [es6学习](https://github.com/ZHR63/JavaScript/blob/master/data/es6/es6.md)
 * [WebSocket](https://github.com/ZHR63/JavaScript/blob/master/data/WebSocket/websocket.md)
 * [计算数组的极值](#计算数组的极值)
 * [数组排序](#数组排序)
