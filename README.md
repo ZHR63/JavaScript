@@ -6,12 +6,11 @@
 
 ## 目录
 * [http](#http)
-* [npm总结](https://github.com/ZHR63/JavaScript/blob/master/data/npm/npm.md)
-* [node使用总结](https://github.com/ZHR63/JavaScript/blob/master/data/node/node.md)
-* [es6学习](https://github.com/ZHR63/JavaScript/blob/master/data/es6/es6.md)
-* [WebSocket](https://github.com/ZHR63/JavaScript/blob/master/data/WebSocket/websocket.md)
-* [计算数组的极值](#计算数组的极值)
-* [数组排序](#数组排序)
+* [npm总结](https://github.com/ZHR63/JavaScript/blob/master/data/npm)
+* [node使用总结](https://github.com/ZHR63/JavaScript/blob/master/data/node)
+* [es6学习](https://github.com/ZHR63/JavaScript/blob/master/data/ese)
+* [面试](https://github.com/ZHR63/JavaScript/blob/master/data/important)
+* [WebSocket](https://github.com/ZHR63/JavaScript/blob/master/data/WebSocket)
 * [js中call、apply、bind](#js中call-apply-bind)
 * [前端性能优化](#前端性能优化)
 * [前端内存泄漏如何避免](#前端内存泄漏如何避免)
@@ -32,40 +31,6 @@
 400,客户端请求语法错误,一般是连接地址不对
 
 500,服务器出现异常
-
-
-
-
-### 计算数组的极值
-
-```
-var arr = [1, -1, 30, 7, -99, 0];
-
-function smallArr(array) {
-    return Math.min.apply(Math, array);
-}
-
-function largeArr(array) {
-    return Math.max.apply(Math, array);
-}
-
-smallArr(arr); // -99
-largeArr(arr); // 30
-```
-
-
-### 数组排序
-> sort()对数组的元素进行排列
-
-```
-var arr = [1, 2, -1, 0, 89, -16];
-arr.sort(function(a,b) {
-    return a - b;
-});
-// 从大到小 b - a
-console.log(arr);
-```
-
 
 
 ### js中call-apply-bind
