@@ -31,7 +31,7 @@
 
 如果安装element-ui 就不需要安装下面的插件了，框架自动安装了
 
-![scss](img/vue.png)
+![scss](../img/vue.png)
 
 `安装`
 
@@ -60,17 +60,17 @@ vue脚手架引入normalize.css，前提是安装sass-loader
 
     padding: 12px 14px;
 
-![vue2](./img/vue2.png)
+![vue2](../img/vue2.png)
 
 但是效果图，感觉整体向上
 
-![vue2](./img/vue3.png)
+![vue2](../img/vue3.png)
 
 原来问题是出在这里
 
-![vue2](./img/vue4.png)
+![vue2](../img/vue4.png)
 
-![vue2](./img/vue5.png)
+![vue2](../img/vue5.png)
 
 我的文本默认向上，找到问题就好解决了
 
