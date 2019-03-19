@@ -2,9 +2,9 @@
 
 ## 目录
 
-- [this](#this)
+- [new](#new)
 
-- [call、apply、bind](#call-apply-bind)
+- [this](#this)
 
 - [前端性能优化](#前端性能优化)
 
@@ -14,8 +14,10 @@
 
 ### this
 
+`《JavaScript 高级程序设计》 this对象在运行时基于函数的执行环境绑定的，在在全局函数中，this 等于 windows，而当函数被作为某个对象的方法调用时，this 等于那个对象。`
+
 ```javascript
-// 1.默认情况下指向window 在use strict情况下为undefined
+// 1.普通函数调用，默认指向window 在use strict情况下为undefined
 function ft() {
   console.log(this);
 }
@@ -30,91 +32,84 @@ ft2(); //undefined
 ```
 
 ```javascript
-// 2.找函数前面的`.` 如果用到this的这个函数属于 context object,那么this就指向context object
+// 2.作为对象的方法调用， 如果用到this的这个函数属于 context object,那么this就指向context object
 var a = {
   a: 1,
   b() {
-    return this;
+    return this.a;
   }
 };
 
-console.log(a.b() == a); //true
+console.log(a.b());
 
 // 拓展
 var a1 = {
   a: 1,
-  b() {
-    return this;
+  b: {
+    a: 2,
+    fn() {
+      return this.a;
+    }
   }
 };
 
+// 这是this指向的是对象b
+console.log(a1.b.fn()); // 2
+```
+
+```javascript
+// 强化题
+var a = 1;
 var a2 = {
   a: 2,
-  b() {
-    return a1.b();
+  b: {
+    a: 3,
+    fn() {
+      return this.a;
+    }
   }
 };
+var c = a2.b.fn;
+console.log(c()); // 1
 
-console.log(a2.b() == a1); //true
-```
+`解析`;
+// this 指向的是最后调用它的对象
+// 先赋值给c
+// 执行c时，相当于window.c();
 
-### call-apply-bind
-
-> 先告诉大家一个基本概念：**改变函数执行时的上下文**，在具体一点就是**改变函数运行时 this 指向**
-
-call 和 apply 改变了什么？先上一段代码
-
-```
-function fn1() {
-    console.log(1);
+var b = 3;
+var obj = {
+  b: 1,
+  fn() {
+    var b = 2;
+    return function() {
+      console.log(this.b);
+    };
+  }
 };
-function fn2() {
-    console.log(2);
-};
-fn1.call(fn2);
-```
+obj.fn()(); // 3
 
-一定要搞清楚谁是被调用者，fn1 永远是要执行的任务，改变的只是 this 的指向，现在 this 指向 fn2,现在我要验证 this 是否指向 fn2
-
+`解析`;
+// 先执行 obj.fn() 返回一个函数
+// 最后执行这个函数,但这个函数最后的调用是window
 ```
-var obj1 = {
-    num : 20,
-    fn : function(n){
-        console.log(this.num+n);
-    }
-};
-var obj2 = {
-    num : 15,
-    fn : function(n){
-        console.log(this.num-n);
-    }
-};
-obj1.fn.call(obj2,10);//25
-```
-
-obj1 中 this.num 的值为 obj2 中 num 的值
 
 ### 前端性能优化
 
-
 **1.避免全局查找**
 
-先告诉大家一个基本概念：访问局部变量的速度要比访问全局变量的速度更快些
+基本概念：访问局部变量的速度要比访问全局变量的速度更快些
 
+```javascript
 `反例`
-
-```
 function fun() {
-    console.log(window.location.href + window.location.host);
+  console.log(window.location.href + window.location.host);
 }
-```
 
-`好例子`
-
-```
+`好例子`;
 function fun() {
-    var location = window.location;
-    console.log(location.href + location.host);
+  var location = window.location;
+  console.log(location.href + location.host);
 }
 ```
 
@@ -127,14 +122,13 @@ function fun() {
 很多人喜欢使用 parseInt()，其实 parseInt()是用于将字符串转换成数字，而不是浮点数和整型之间的转换，我们应该使用 Math.floor()或者 Math.round()
 
 **4. 使用直接量**
-
+```javascript
 `反例`
-
-    var arr = new Array();
+var arr = new Array();
 
 `好例子`
-
-    var varr = [];
+var varr = [];
+```
 
 ### 前端内存泄漏如何避免
 

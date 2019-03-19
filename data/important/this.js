@@ -11,56 +11,65 @@ function ft2() {
 ft(); //window
 ft2(); //undefined
 
-// 2.找函数前面的`.` 如果用到this的这个函数属于 context object,那么this就指向context object
+// 2.作为对象的方法调用， 如果用到this的这个函数属于 context object,那么this就指向context object
 var a = {
   a: 1,
   b() {
-    return this;
+    return this.a;
   }
 };
 
-console.log(a.b() == a); //true
+console.log(a.b());
 
 // 拓展
-
 var a1 = {
   a: 1,
-  b() {
-    return this;
+  b: {
+    a: 2,
+    fn() {
+      return this.a;
+    }
   }
 };
 
+// 这是this指向的是对象b
+console.log(a1.b.fn()); // 2
+
+// 强化题
+var a = 1;
 var a2 = {
   a: 2,
-  b() {
-    return a1.b();
+  b: {
+    a: 3,
+    fn() {
+      return this.a;
+    }
+  }
+};
+var c = a2.b.fn;
+console.log(c()); // 1
+
+`解答`;
+// this 指向的是最后调用它的对象
+// 先赋值给c
+// 执行c时，相当于window.c();
+
+var b = 3;
+var obj = {
+  b: 1,
+  fn() {
+    var b = 2;
+    return function() {
+      console.log(this.b);
+    };
   }
 };
 
-console.log(a2.b() == a1);  //true
+obj.fn()(); // 3
 
-
-
-
-
-
-
-
-
-
-
-// var obj = {
-//   a: 1,
-//   fn() {
-//     var a = 2;
-//     return function() {
-//       console.log(this.a);
-//     };
-//   }
-// };
-// var a = 3;
-
-// obj.fn()();
+// `解析`
+// 先执行 obj.fn() 返回一个函数
+// 最后执行这个函数,但这个函数最后的调用是window
 
 // function fn1(fn) {
 //   arguments[0](3, 4);
