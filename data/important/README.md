@@ -2,15 +2,15 @@
 
 ## 目录
 
-[this](#this)
+- [this](#this)
 
-[call、apply、bind](#call-apply-bind)
+- [call、apply、bind](#call-apply-bind)
 
-[前端性能优化](#前端性能优化)
+- [前端性能优化](#前端性能优化)
 
-[前端内存泄漏如何避免](#前端内存泄漏如何避免)
+- [前端内存泄漏如何避免](#前端内存泄漏如何避免)
 
-[从内存来看 null 和 undefined 本质的区别是什么](#从内存来看null和undefined本质的区别是什么)
+- [从内存来看 null 和 undefined 本质的区别是什么](#从内存来看null和undefined本质的区别是什么)
 
 ### this
 
