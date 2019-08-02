@@ -6,12 +6,9 @@
 
 ## 目录
 - [GitHub](https://github.com/ZHR63/JavaScript/blob/master/data/github)
-- [VUE](https://github.com/ZHR63/JavaScript/blob/master/data/vue)
 - [npm](https://github.com/ZHR63/JavaScript/blob/master/data/npm)
 - [node](https://github.com/ZHR63/JavaScript/blob/master/data/node)
 - [es6](https://github.com/ZHR63/JavaScript/blob/master/data/ese)
-- [面试](https://github.com/ZHR63/JavaScript/blob/master/data/important)
-- [WebSocket](https://github.com/ZHR63/JavaScript/blob/master/data/WebSocket)
 
 
 ### window 中查找端口并关闭
