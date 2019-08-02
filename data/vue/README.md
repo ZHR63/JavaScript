@@ -1,6 +1,9 @@
 # Vue
 
 ## 目录
+* [MVVM](#MVVM)
+* [vue-SSR]
+* [移动端一像素]
 * [vue-devloots安装](https://www.cnblogs.com/yuqing6/p/7440549.html)
 * [Vue-CLI3](#Vue-CLI3)
 * [Vue-CLI3使用Vue-CLI2版本](#Vue-CLI3使用Vue-CLI2版本)
@@ -8,6 +11,9 @@
 * [normalize.css](https://github.com/necolas/normalize.css)
 * [Vue项目](#Vue项目)
 
+### MVVM
+
+view(视图=DOM对象) -- ViewModel(通讯，中间件，观察数据的变化) -- Model(数据对象)
 
 ### Vue-CLI3
 
