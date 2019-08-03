@@ -1,6 +1,7 @@
 # CSS
 
 - animation(动画)
+  -
 
   > transition 属性的扩展，包含 8 个属性
 
@@ -31,5 +32,7 @@
   - animation-play-state (动画是否运行或暂停)
 
 - transition(过度)
+  -
+  
 - transform(变形)
 - translate(移动)
