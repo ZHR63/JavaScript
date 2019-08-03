@@ -2,7 +2,7 @@
 
 - ## animation(动画)
 
-  - **_animation-name_** 动画名称
+  - **_animation-name_** `动画名称`
   - **_animation-duration_** 动画完成时间
   - **_animation-timing-function_** 完成周期
 
