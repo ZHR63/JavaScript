@@ -4,7 +4,7 @@
   -
 
   - animation-name `动画名称`
-  - `animation-duration` 动画完成时间
+  - # `animation-duration` 动画完成时间
   - animation-timing-function (完成周期)
 
     - linear 匀速
