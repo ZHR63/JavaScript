@@ -89,7 +89,7 @@
 
     - perspective-origin `设置视距的基点`
 
-    -backface-visibility `用于是否看见3d舞台的背面`
+    - backface-visibility `用于是否看见3d舞台的背面`
 
   - **_2D 变形_**
 

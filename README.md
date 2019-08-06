@@ -7,6 +7,7 @@
 ## 目录
 - [GitHub](https://github.com/ZHR63/JavaScript/blob/master/data/github)
 - [CSS](https://github.com/ZHR63/JavaScript/blob/master/data/css)
+- [Mysql](https://github.com/ZHR63/JavaScript/blob/master/data/mysql)
 - [npm](https://github.com/ZHR63/JavaScript/blob/master/data/npm)
 - [node](https://github.com/ZHR63/JavaScript/blob/master/data/node)
 - [es6](https://github.com/ZHR63/JavaScript/blob/master/data/ese)
