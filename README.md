@@ -9,7 +9,6 @@
 - [Vue](https://github.com/ZHR63/JavaScript/blob/master/data/vue)
 - [GitHub](https://github.com/ZHR63/JavaScript/blob/master/data/github)
 - [CSS](https://github.com/ZHR63/JavaScript/blob/master/data/css)
-- [Mysql](https://github.com/ZHR63/JavaScript/blob/master/data/mysql)
 - [npm](https://github.com/ZHR63/JavaScript/blob/master/data/npm)
 - [node](https://github.com/ZHR63/JavaScript/blob/master/data/node)
 
