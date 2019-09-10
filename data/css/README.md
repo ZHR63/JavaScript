@@ -1,4 +1,14 @@
-# CSS
+# CSS 美容师
+
+- box-shadow
+
+  > 几乎可以让所有元素的边框产生阴影
+
+  - box-shadow: x 偏移量, y 偏移量, 阴影颜色
+
+  - box-shadow: x 偏移量, y 偏移量, 阴影模糊半径, 阴影颜色
+
+  - box-shadow: x 偏移量, y 偏移量, 阴影模糊半径, 阴影扩散半径, 阴影颜色
 
 - ## animation (动画)
 
@@ -79,9 +89,9 @@
 
     - transform-origin `指定元素变形的中心点，默认中心点就是元素的正中心，即xyz轴的 50% 50% 0`
 
-    - transform-style `用于指定舞台为2D 或 3D` (默认为flat)
+    - transform-style `用于指定舞台为2D 或 3D` (默认为 flat)
 
-      - flat 
+      - flat
 
       - perserve-3d
 
