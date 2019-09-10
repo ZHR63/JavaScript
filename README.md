@@ -7,7 +7,6 @@
 ## 目录
 - [js](https://github.com/ZHR63/JavaScript/blob/master/data/js)
 - [Vue](https://github.com/ZHR63/JavaScript/blob/master/data/vue)
-- [GitHub](https://github.com/ZHR63/JavaScript/blob/master/data/github)
 - [CSS](https://github.com/ZHR63/JavaScript/blob/master/data/css)
 - [npm](https://github.com/ZHR63/JavaScript/blob/master/data/npm)
 - [node](https://github.com/ZHR63/JavaScript/blob/master/data/node)
