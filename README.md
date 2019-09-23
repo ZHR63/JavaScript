@@ -29,6 +29,9 @@
 
 ### [谷歌访问助手](https://www.jianshu.com/p/6086ec29c173)
 
+
+### [ES6 完全使用手册](https://juejin.im/post/5bfe05505188252098022400)
+
 ### [Markdown在线编辑器](https://www.mdeditor.com/)
 
 ### [鬼灭之刃](https://www.mkzhan.com/209827/)
@@ -36,3 +39,8 @@
 ### [React.js 小书](http://huziketang.mangojuice.top/books/react/)
 
 ### [vant](https://youzan.github.io/vant/#/zh-CN/intro)
+
+### [JS 前20个常用字符串方法及使用方式](https://juejin.im/post/5d6866936fb9a06ada54c642)
+
+
+### [JavaScript数组的十八般武艺](https://juejin.im/post/5b684ef9e51d451964629ba1)
