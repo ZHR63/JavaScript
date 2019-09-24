@@ -8,8 +8,6 @@
   </head>
   <body>
 
-    <script src="./util.js"></script>
-
     <script>
 
       // 数组  https://juejin.im/post/5b684ef9e51d451964629ba1
@@ -26,6 +24,32 @@
           // * 返回新对象
 
         
+    </script>
+
+    <script>
+    // 数组去重
+    Array.prototype.unique = function () {
+      let newArr = [];
+      let isRepeat;
+      for (let i = 0; i < this.length; i++) {
+        isRepeat = false;
+        for (let j = 0; j < newArr.length; j++) {
+          if (this[i] === newArr[j]) {
+            isRepeat = true;
+            break;
+          }
+        }
+        if (!isRepeat) {
+          newArr.push(this[i])
+        }
+      }
+      return newArr;
+    }
+
+    var arr = [1,2,1,2,1,2,3,4,5,5,4,3,2,1];
+    var a = arr.unique();
+    console.log(a)
+    
     </script>
   </body>
 </html>

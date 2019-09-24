@@ -1,8 +1,8 @@
 # vue
 
-    [初级前端面试](https://juejin.im/post/5d87985d6fb9a06add4e6ac3#heading-1)
-
     构建用户界面的渐进式框架，核心库只关注视图层
+
+- [初级前端面试](https://juejin.im/post/5d87985d6fb9a06add4e6ac3#heading-1)
 
 - ### MVVM
 
