@@ -5,12 +5,12 @@
 ---
 
 ## 目录
+
 - [js](https://github.com/ZHR63/JavaScript/blob/master/data/js)
 - [Vue](https://github.com/ZHR63/JavaScript/blob/master/data/vue)
 - [CSS](https://github.com/ZHR63/JavaScript/blob/master/data/css)
 - [npm](https://github.com/ZHR63/JavaScript/blob/master/data/npm)
 - [node](https://github.com/ZHR63/JavaScript/blob/master/data/node)
-
 
 ### window 中查找端口并关闭
 
@@ -24,14 +24,11 @@
 
     taskkill /pid 10940 /F
 
-
-
-
 ### [谷歌访问助手](https://www.jianshu.com/p/6086ec29c173)
 
 ### [ES6 完全使用手册](https://juejin.im/post/5bfe05505188252098022400)
 
-### [Markdown在线编辑器](https://www.mdeditor.com/)
+### [Markdown 在线编辑器](https://www.mdeditor.com/)
 
 ### [鬼灭之刃](https://www.mkzhan.com/209827/)
 
@@ -39,16 +36,12 @@
 
 ### [vant](https://youzan.github.io/vant/#/zh-CN/intro)
 
-### [JS 前20个常用字符串方法及使用方式](https://juejin.im/post/5d6866936fb9a06ada54c642)
+### [JS 前 20 个常用字符串方法及使用方式](https://juejin.im/post/5d6866936fb9a06ada54c642)
 
+### [JavaScript 数组的十八般武艺](https://juejin.im/post/5b684ef9e51d451964629ba1)
 
-### [JavaScript数组的十八般武艺](https://juejin.im/post/5b684ef9e51d451964629ba1)
+### [11 道浏览器原理面试题](https://juejin.im/post/5d89798d6fb9a06b102769b1)
 
+### [这 44 个 CSS 精选知识点你能在 30 秒内给出答案吗？](https://juejin.im/post/5d40120f6fb9a06b0471d956)
 
-### [11道浏览器原理面试题](https://juejin.im/post/5d89798d6fb9a06b102769b1)
-
-
-### [这44个 CSS 精选知识点你能在30 秒内给出答案吗？](https://juejin.im/post/5d40120f6fb9a06b0471d956)
-
-
-### [vue-cli脚手架搭建项目及Axios封装](https://juejin.im/post/5d89c75651882509662c55b1)
+### [vue-cli 脚手架搭建项目及 Axios 封装](https://juejin.im/post/5d89c75651882509662c55b1)
