@@ -56,3 +56,5 @@
 ### [谷歌小助手](https://segmentfault.com/a/1190000020548973?utm_source=tag-newest)
 
 ### [我的估价](https://easydoc.xyz/#/doc/31650716/5GkCCPBw/2ariUmFk)
+
+### [智慧工地](http://zhgd.youtushuju.cn/#/login)
